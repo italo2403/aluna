@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+.formulario{
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    color: #fff;
+}
+
+.formulario label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario input{
+    width: 100%;
+    padding: 0.4rem;
+}
+
+.formulario button{
+    background-color: purple;
+    font-family: 'Poppins', sans-serif;
+    padding: 1em;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.valor-total{
+    color: white;
+}
+
+
+.div-center-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.corpo{
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.corpo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.container-cadeiras {
+    justify-content: center;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px
+}
+
+.cadeira {
+    cursor: pointer;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white
+}
+
+.assento {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.cadeira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.numeração-cadeira {
+    font-size: 16px;
+    pointer-events: none
+}
+
+.cadeira:hover {
+    background-color: purple;
+    color: white;
+    transition: 1ms ease-in-out
+}
+
+.verde {
+    background-color: purple;
+    color: white
+}
+
+.resultado {
+    color: white
+}
+
+.valor-total {
+    margin-top: 10px;
+    font-size: 40px;
+    color: white
+}
+
+.cadeiras-selecionadas {
+    font-size: 18px;
+    color: white
+}
+
+.descrição-assento {
+    text-align: center;
+    color: white
+}
+
+.descrição-meia {
+    text-align: justify;
+    color: white
+}
+
+.meia {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.meia select {
+    padding: 4px
+}
+
+.cadeiras-selecionadas {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    overflow: hidden
+}
+
+.botão-compra {
+    width: 100%;
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background-color: purple;
+    color: white
+}
+
+.descrição-tela {
+    text-align: center;
+    color: white;
+    font-size: 14px
+}
+
+.tela {
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white
+}
+
+.seta {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}

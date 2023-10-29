@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300; 1.400;1.500;1.600;1.700 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sem serifa;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font-family: 'League Spartan', sem serifa;
+
+}
+
+nav {
+    background-color: black;
+}
+
+.logomenor {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 150px;
+
+}
+
+.logomenor2 {
+
+    display: flex;
+    margin-left: 10px;
+    width: 150px;
+    margin: auto;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.text-primary {
+    --bs-text-opacity: 0;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
+
+.linha {
+    margin: 0 auto;
+    width: 50%;
+    background-color: yellow;
+    padding: 0.2em;
+}
+
+
+.linha-name-center {
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+.cor {
+    background-color: #A585FF;
+    font-family: 'League Spartan', sem serifa;
+
+}
+
+.cor2 {
+    background-color: #FEF58E;
+    font-family: 'League Spartan', sem serifa;
+}
+
+.cor3 {
+    background-color: black;
+    color: white;
+    font-family: 'League Spartan', sem serifa;
+}
+
+table {
+    font-family: 'League Spartan', sem serifa;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+
+}
+
+
+.font {
+    font-family: 'League Spartan', sem serifa;
+}
+
+.linha-name-center {
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+}
+
+.nome-filmes {
+    color: white;
+    font-size: 26px;
+}
+
+.container-ingresso {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: #916AFC;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.part-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.part-1 p {
+    color: white;
+}
+
+.part-1 a {
+    color: #F7E736;
+}
+
+.part-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.part-2 p {
+    color: white;
+}
+
+.part-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.part-3 a {
+    color: white;
+}
+
+.alinhamento-container-ingresso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+
+.hors {
+    font-size: 26px;
+}
+
+.teste {
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.linha2 {
+    margin: 0 auto;
+    width: 100%;
+    background-color: yellow;
+    padding: 0.2em;
+}
+
+.container-lado-a-lado {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-lado-a-lado2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-model {
+    width: 100%;
+    display: flex;
+}
+
+.linkfilme {
+    color: white;
+}
+
+.linkfilme:hover {
+    color: #FEF58E;
+
+}
+
+.pdireitomeiaentrada {
+    font-size: 16px;
+
+    color: #fff;
+
+}
+.linkmeiaentrada{
+    color: #F7E736;
+}
+.img-vertical{
+    margin-top: 38px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    
+
+}
+.trailerbarbie{
+    margin: auto;
+   height: 600px;
+   width: 900px;
+}
+.trailerbezouroazul{
+    margin: auto;
+   height: 600px;
+   width: 900px;
+}
+.trailerelementos{
+    margin: auto;
+    height: 600px;
+    width: 900px;
+}
+.trailermegatubarao{
+    margin: auto;
+    height: 600px;
+    width: 900px;
+}
+.trailerfalecomigo{
+    margin: auto;
+    height: 600px;
+    width: 900px;
+}
+.setabranca2{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.paragrafo-barbie{
+    color: white;
+}
+.img-luz{
+    margin: auto;
+}
+.h1-icinewood{
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Montserrat', sem serifa;
+}
+
+.container-descrision{
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+
+.cards{
+    width: 100%;
+}
+
+
+.capa-filme{
+    width: 500px;
+}
+
+.nome-filme{
+    margin: 20px;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  color: #ffff;
+}
+
+.categorias{
+    width: 100%;
+    display: flex;
+    color: #ffff;
+    justify-content: space-around
+
+}
+
+.alinhamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.descriçao{
+    color: #ffff;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.descrição-categorias{
+    margin-top: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.descriçao-filme{
+    color: #ffff;
+    font-size: 30px;
+}
+.nome-sinpse{
+    font-size: 3em;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    color: #ffff;
+}
+.sinopse{
+    margin: 0 auto;
+    line-height: 3em;
+    width: 60%;
+}
+
+.cadastro{
+    margin: 0 auto;
+    font-size: 3em;
+    text-align: center;
+    color: #ffff;
+    font-weight: 500;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+.linha-cadastro {
+    margin: 0 auto;
+    background-color: yellow;
+    padding: 0.1em;
+  
+}
+
+.tela-login{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+
+}
+
+.input{
+   
+    padding: 15px;
+    outline: none;
+    font-size: 17px;
+    border-radius: 8px 8px;
+}
+
+
+.butao-cadastro{
+   width: 100%;
+   display: flex;
+   padding: 15px;
+   justify-content: center;
+   align-items: center;
+}
+
+.butao-cadastro2{
+    padding: 15px;
+    font-size: 17px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background-color: #A585FF;
+    color: white;
+    border-radius: 12px;
+}
+
+.butao-cadastro2:hover{
+    transform: scale(0.9);
+}
+
+.entre-aqui{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.link-cadastro{
+    color: #F7E736;
+
+}
+
+.link-cadastro:hover{
+    text-decoration:underline;
+}
+
+.butao-cadastro3{
+    padding: 15px;
+    font-size: 17px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background-color: #A585FF;
+    color: white;
+    border-radius: 12px;
+    margin-top: 27px;
+}
+
+.butao-cadastro3:hover{
+    transform: scale(0.9);
+}
+
+#diminuir{
+margin: 100px;
+}
+
+
